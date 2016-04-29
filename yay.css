@@ -1,6 +1,9 @@
 
 p {
-background: black;
-color: white
+
+h1 {
+  text-align:center;
+  color:darkgray;
+  font-family:arial;
 
 }
