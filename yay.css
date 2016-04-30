@@ -1,6 +1,6 @@
-<body>
-background-color:dark-gray
-</body>
+body{
+  background-color: darkgray;
+}
 h1 {
   font-family:arial;
   text-align:center;
