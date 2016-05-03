@@ -14,3 +14,13 @@ p {
 }
 
 
+.image3
+{
+opacity:1.0;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.image3:hover
+{
+opacity:0.0;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+}
