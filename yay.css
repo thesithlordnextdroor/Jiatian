@@ -14,11 +14,11 @@ p {
 }
 
 img {
-    opacity: 0.4;
+    opacity: 1.0;
     filter: alpha(opacity=40); 
 }
 
 img:hover {
-    opacity: 1.0;
+    opacity: 0.4;
     filter: alpha(opacity=100);
 }
