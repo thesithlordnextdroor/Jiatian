@@ -13,12 +13,12 @@ p {
 
 }
 
-img3 {
+.img3 {
     opacity: 1.0;
     filter: alpha(opacity=40); 
 }
 
-img3:hover {
+.img3:hover {
     opacity: 0.4;
     filter: alpha(opacity=100);
 }
