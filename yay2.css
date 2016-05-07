@@ -1,3 +1,9 @@
 body{
     background-color: gray;
 }
+
+.img_centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
