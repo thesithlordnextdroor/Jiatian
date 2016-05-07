@@ -1,26 +1,31 @@
 <header> 
-
+ <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
  <link rel="stylesheet"
       href="yay2.css">
-<nav>
-    <ul>
-        <li><a href="index.html">Boring</a></li>
-    </ul>
-    <ul>
-        <li id="selected"><a href="that.html">Boringer</a></li>
-        </ul>
-       <ul> 
-        <li><a href="theOther.html">Boringest</a></li>
-        </ul>
-        <ul>
-        <li><a href="bababa.html">Boringerest</a></li>
-        </ul>
-        <ul>
-        <li><a href="swquotes.html">Non-boring</a></li>
-        </ul>
-    </ul>
-</nav>
-<img class="img_centered" src="https://media0.giphy.com/media/f9omLM0QmCJna/200_s.gif">
-
 </header>
+
+<body>
+<ul class="w3-navbar w3-black">
+  <li><a href="#" onclick="display('Boring')">Boring</a></li>
+</ul>
+<div id="Biclass="w3-container noun">
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+</div>
+
+
+<img class="img_centered" src="https://media0.giphy.com/media/f9omLM0QmCJna/200_s.gif">
+<script>
+display("Boring")
+function display(noun)
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    document.getElementById(cityName).style.display = "block";  
+}
+</script>
+</body>
+
 
