@@ -6,8 +6,8 @@
 
 <body>
 <ul class="w3-navbar w3-black">
-  <li><a href="#" onclick="display('Boring')">Boring</a></li>
-  <li><a href="#" onclick="display('Boringer')">Boringer</a></li>
+  <li><a href="#" onclick="displayTab('Boring')">Boring</a></li>
+  <li><a href="#" onclick="displayTab('Boringer')">Boringer</a></li>
 </ul>
 <div id="Boring" class="w3-container noun">
   <h2>Boring</h2>
@@ -21,8 +21,8 @@
 
 <img class="img_centered" src="https://media0.giphy.com/media/f9omLM0QmCJna/200_s.gif">
 <script>
-display("Boring")
-function display(noun) {
+displayTab("Boring")
+function displayTab(noun) {
     var i;
     var x = document.getElementsByClassName("noun");
     for (i = 0; i < x.length; i++) {
@@ -32,5 +32,4 @@ function display(noun) {
 }
 </script>
 </body>
-
 
